@@ -1,0 +1,25 @@
+{
+    "projects": [
+      {
+        "header": "G.O.A.T",
+        "img": "https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619032946/goat_zcrtep_vo5j9f.png",
+        "id": 1,
+        "description": "",
+        "link": "https://upbeat-colden-eaa532.netlify.app/index.html"
+      },
+      {
+        "header": "Bee Hive",
+        "img": "https://compassionate-varahamihira-f85f9d.netlify.app/",
+        "id": 2,
+        "description": "Vaccination around the Europe. The world is in the midst of a COVID-19 pandemic. The Vaccinator project was created to easily you could find the vaccination center near you. I have all the contacts needed in order to get in touch with the center and clarify any doubt! No excuse for not being vaccinated.",
+        "link": "#"
+      },
+      {
+        "header": "Epico",
+        "img": "https://www.dropbox.com/s/krt62y87smnl2ru/Epico.jpeg?raw=1",
+        "id": 3,
+        "description": "The Epic gamers is an app designed for board games lovers. Here you may find info about different board games and the best places in the world to buy them and to play them in good company. Throught the world map you can find stores and coffee shops across the world! ",
+        "link": "#"
+      }
+    ]
+  }
