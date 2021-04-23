@@ -49,10 +49,12 @@
       align-items: center;
       justify-content: center;
       margin: 20px;
+      margin-left: 20%;
     }
     .myphoto img {
       width: 300px;
-      margin-top: 30px;
+      margin-top: 10%;
+      margin-left: -10%;
     }
     .aboutme h1 {
       font-size: 3rem;
@@ -62,5 +64,8 @@
       margin-top: 10px;
       max-width: 300px;
       letter-spacing: 1px;
+    }
+    .logos {
+        margin-left: -10%;
     }
   }
