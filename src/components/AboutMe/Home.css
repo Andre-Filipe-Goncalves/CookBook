@@ -5,6 +5,10 @@
   
 }
 
+.logos{
+    margin-left: 35%;
+    margin-right: -20%;
+}
 
 
 .home{
@@ -30,10 +34,33 @@
 .myphoto img{
     height: 350px;
     margin: 20%;
-    margin-top: 50%;
+    margin-top: 25%;
     margin-right: 30%;
 }
 
 .myphoto {
     height: auto;
 }
+
+@media screen and (max-width: 900px) {
+    .home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+    }
+    .myphoto img {
+      width: 300px;
+      margin-top: 30px;
+    }
+    .aboutme h1 {
+      font-size: 3rem;
+    }
+    .aboutme {
+      line-height: 2rem;
+      margin-top: 10px;
+      max-width: 300px;
+      letter-spacing: 1px;
+    }
+  }

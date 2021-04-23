@@ -1,4 +1,11 @@
-.projectimg {
+@import url('https://fonts.google.com/specimen/Zen+Dots#standard-styles');
+
+* {
+  font-family: 'Josefin Sans', cursive;
+}
+
+
+.project img {
     width: 400px;
     height: 300px;
 }
@@ -8,12 +15,55 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 50%;
+color: white;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: black;
 }
+
+.card h1{
+    font-size: 80px;
+}
+
+.cardtext {
+    width: 70%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button {
+    background: #000203;
+    background-image: -webkit-linear-gradient(top, #000203, #e4f000);
+    background-image: -moz-linear-gradient(top, #000203, #e4f000);
+    background-image: -ms-linear-gradient(top, #000203, #e4f000);
+    background-image: -o-linear-gradient(top, #000203, #e4f000);
+    background-image: linear-gradient(to bottom, #000203, #e4f000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #e4f000;
+    background-image: -webkit-linear-gradient(top, #e4f000, #000000);
+    background-image: -moz-linear-gradient(top, #e4f000, #000000);
+    background-image: -ms-linear-gradient(top, #e4f000, #000000);
+    background-image: -o-linear-gradient(top, #e4f000, #000000);
+    background-image: linear-gradient(to bottom, #e4f000, #000000);
+    text-decoration: none;
+  }

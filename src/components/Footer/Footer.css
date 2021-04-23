@@ -1,0 +1,19 @@
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50px;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    padding: 10px;
+    transform: scale(0.8);
+    transition: 0.5s;
+  }
+  
+  .social-icons:hover {
+    transform: scale(1) translateY(-10px);
+  }
