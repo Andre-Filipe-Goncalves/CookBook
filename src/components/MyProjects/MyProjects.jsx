@@ -1,6 +1,7 @@
 import React from 'react'
 import * as projects from "./Projects.json"
 import MyProjectCards from "./MyProjectCards"
+import './MyProject.css'
 
 export default function MyProjects() {
     return (

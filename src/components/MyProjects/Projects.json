@@ -2,16 +2,16 @@
     "projects": [
       {
         "header": "G.O.A.T",
-        "img": "https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619032946/goat_zcrtep_vo5j9f.png",
+        "img": "https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619203298/Screenshot_from_2021-04-23_19-40-32_z0eiu5.png",
         "id": 1,
-        "description": "",
+        "description": "Welcome to G.O.A.T., the website about the best at their sport. The intention of G.O.A.T. is to have a kind of virtual museum with the achivments, photos and videos of the best of the best.",
         "link": "https://upbeat-colden-eaa532.netlify.app/index.html"
       },
       {
         "header": "Bee Hive",
         "img": "https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619034644/Screenshot_from_2021-04-21_20-48-03_pdjqyd.png",
         "id": 2,
-        "description": "",
+        "description": "Welcome to the Bee Hive. This was an hackaton project, meant to bring awareness to the importance of the bees to the ecosystem, and to promote the type of goods they produce.",
         "link": "https://compassionate-varahamihira-f85f9d.netlify.app/"
       },
       {
