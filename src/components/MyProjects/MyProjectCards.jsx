@@ -5,6 +5,7 @@ import './MyProject.css'
 export default function MyProjectCards({ project }) {
     return (
             <div className="card">
+                <br/><br/>
                 <h1>{project.header}</h1>
                 <br/><br/>
             <div className="cardphoto">

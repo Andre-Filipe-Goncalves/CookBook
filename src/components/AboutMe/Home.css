@@ -42,6 +42,7 @@
     height: auto;
 }
 
+
 @media screen and (max-width: 900px) {
     .home {
       display: flex;

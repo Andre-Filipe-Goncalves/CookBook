@@ -20,13 +20,13 @@ export default function Home() {
       <br/><br/><br/>
       <h1>About Me</h1>
       <br/>
-      <p> I like Boardgames, Bees and Formula 1 as it is pretty clearly shown by my projects themes. I like watching movies and TV shows. 
+      <p> I like Boardgames, Bees and Formula 1, as it is pretty clearly shown by my projects themes. I like watching movies and TV shows. 
         I have an adopted cat and several adopted plants. 
         I used to be an airplane mechanic, but when the pandemic hit, the sector was severely affected, so i decided to change career.
        </p>
       </div>
       <div className="myphoto">
-      <img src="https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619031384/profile-pic_1_wmuvhb.png" />
+      <img src="https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619251400/profile-pic_3_ypjfjo.png" />
       <div className='logos'>
         <IconContext.Provider value={{ size: "4rem" }}>
           <DiJavascript />
