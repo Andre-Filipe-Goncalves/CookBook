@@ -26,7 +26,7 @@ export default function Home() {
        </p>
       </div>
       <div className="myphoto">
-      <img src="https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619251400/profile-pic_3_ypjfjo.png" />
+      <img src="https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619251289/profile-pic_2_qmepo0.png" />
       <div className='logos'>
         <IconContext.Provider value={{ size: "4rem" }}>
           <DiJavascript />
