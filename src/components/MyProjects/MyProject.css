@@ -64,3 +64,11 @@
     text-decoration: none;
     color:white;
   }
+
+  @media screen and (max-width: 900px) {
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0%;
+    }
+}
