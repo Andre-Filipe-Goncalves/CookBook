@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: flex-end;
     height: 50px;
+    background: white;
   }
   
   .social-icons {
@@ -12,6 +13,7 @@
     padding: 10px;
     transform: scale(0.8);
     transition: 0.5s;
+  
   }
   
   .social-icons:hover {

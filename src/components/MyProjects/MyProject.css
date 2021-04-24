@@ -18,7 +18,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 50%;
-color: white;
+    color:white;
+    font-family: 'Josefin Sans', cursive;
 }
 
 .card {
@@ -28,8 +29,13 @@ color: white;
     margin-top: 10%;
     box-sizing: border-box;
     border-radius: 40px;
-    background-color: black;
+    background: black;
 }
+
+
+
+
+
 
 .card h1{
     font-size: 80px;
@@ -42,12 +48,7 @@ color: white;
 }
 
 .button {
-    background: #000203;
-    background-image: -webkit-linear-gradient(top, #000203, #e4f000);
-    background-image: -moz-linear-gradient(top, #000203, #e4f000);
-    background-image: -ms-linear-gradient(top, #000203, #e4f000);
-    background-image: -o-linear-gradient(top, #000203, #e4f000);
-    background-image: linear-gradient(to bottom, #000203, #e4f000);
+    background:white;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -55,14 +56,11 @@ color: white;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    color:green;
   }
   
   .button:hover {
-    background: #e4f000;
-    background-image: -webkit-linear-gradient(top, #e4f000, #000000);
-    background-image: -moz-linear-gradient(top, #e4f000, #000000);
-    background-image: -ms-linear-gradient(top, #e4f000, #000000);
-    background-image: -o-linear-gradient(top, #e4f000, #000000);
-    background-image: linear-gradient(to bottom, #e4f000, #000000);
+    background:green;
     text-decoration: none;
+    color:white;
   }
