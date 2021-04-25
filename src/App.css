@@ -1,20 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet');
+
+
 body {
-    background: white;
-    color: green;
     transition: background 1s ease-in-out, color 1s ease-in-out;
+  }
+
+  button{
+  
   }
   
   body.light {
+      font-family: 'Chivo', sans-serif;
+      font-weight: 300;
+      background-color: #484d5c;
+      color: #ffce00
+     }
     
-    background: white;
-    color: green;
-  }
+
+  body.light h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+   }
   
   body.dark {
     background:black;
     color: white;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+  }
+
+  body.dark h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
   }
 
   .card.dark{
     background: white;
 }
+

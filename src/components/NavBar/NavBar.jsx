@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+import { CgDarkMode } from "react-icons/cg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,25 +38,24 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-      <button 
-            className={mode === "dark" ? clickedState : ""}
-            onClick={(e) => switchMode(e)}
-            >André Gonçalves
-            </button>
+      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          André Gonçalves
+        </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
-            </Link>
-          </li>
-          <li className='nav-item'>
             <Link to='/MyProjects' className='nav-links' onClick={closeMobileMenu}>My Projects
             </Link>
           </li>
         </ul>
+        <button 
+            className={mode === "dark" ? clickedState : ""}
+            onClick={(e) => switchMode(e)}
+            >
+               <CgDarkMode />
+            </button>
       </nav>
     </>
   );

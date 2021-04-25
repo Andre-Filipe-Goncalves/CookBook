@@ -17,7 +17,7 @@ export default function MyProjectCards({ project }) {
             </div>
             <br/><br/>
             <Link to={{ pathname: project.link }} target='_blank'>
-                <button className="button">Project</button>
+                <button className="projectbutton">Project</button>
             </Link>
             <br/><br/><br/>
         </div>

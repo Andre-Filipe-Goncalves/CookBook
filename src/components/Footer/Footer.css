@@ -19,9 +19,3 @@
   .social-icons:hover {
     transform: scale(1) translateY(-10px);
   }
-
-  @media screen and (max-width: 900px) {
-    .footer {
-      margin-left: 10%;
-    }
-  }

@@ -1,8 +1,5 @@
-@import url('https://fonts.google.com/specimen/Zen+Dots#standard-styles');
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet');
 
-* {
-  font-family: 'Josefin Sans', cursive;
-}
 
 
 .project img {
@@ -47,19 +44,23 @@
     text-align: justify;
 }
 
-.button {
+.projectbutton {
     background:white;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    color:green;
+    transform: scale(1);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #484d5c;
+    color: #ffce00
   }
   
-  .button:hover {
+  .projectbutton:hover {
     background:green;
     text-decoration: none;
     color:white;
@@ -71,4 +72,9 @@
       flex-wrap: wrap;
       margin-left: 0%;
     }
+
+    .projectbutton{
+      margin: 0 0 0 0;
+    }
+
 }
