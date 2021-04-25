@@ -4,7 +4,6 @@ import {
   FaGithub,
   FaFacebook,
   FaLinkedin,
-  FaYoutube,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import "./Footer.css";

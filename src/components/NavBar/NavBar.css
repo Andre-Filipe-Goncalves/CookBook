@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
   }
   
   .navbar {
@@ -11,9 +12,29 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-  
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .navbar-logo {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 10px 20px 10px 20px;
+    background-color: #484d5c;
+    color: #ffce00;
+    font-size: 2rem;
   }
   
+  .navbar-logo:hover{
+    background: white;
+    text-decoration: none;
+    color: black;
+  }
+
   
   .nav-menu {
     display: grid;
@@ -39,32 +60,15 @@
     -moz-border-radius: 28;
     border-radius: 28px;
     padding: 10px 20px 10px 20px;
-    background: white;
-    color: black;
+    background-color: #484d5c;
+    color: #ffce00
   }
   
-button {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  padding: 10px 20px 10px 20px;
-  background: white;
-  color: black;
-  font-size: 2.5rem;
-}
-
-button:hover {
-  text-decoration: none;
-}
-
   .nav-links:hover {
     background: white;
     text-decoration: none;
+    color: black;
   }
-  
-
   
   .nav-links-mobile {
     display: none;
@@ -74,9 +78,29 @@ button:hover {
     display: none;
   }
 
+  button{
+    display: inline-block;
+    transition: 0.5s;
+    padding: 0;
+    border: none;
+    background: none;
+    transform: scale(3);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #484d5c;
+    color: #ffce00;
+  }
+
+  button:hover{
+    background: white;
+    text-decoration: none;
+    color: black;
+  }
+
   @media screen and (max-width: 1300px) {
-    button{
-      font-size:1.5rem;
+
+    .navbar-logo {
+      font-size: 1.5rem;
     }
   }
 
@@ -85,8 +109,10 @@ button:hover {
 
     button{
       font-size: 1rem;
+      transform: scale(1.5);
+      margin: 0 0 0 60%;
     }
-  
+
     .nav-menu {
       display: flex;
       flex-direction: column;

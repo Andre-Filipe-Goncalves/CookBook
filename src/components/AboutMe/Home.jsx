@@ -12,19 +12,6 @@ import {
 export default function Home() {
   return (
     <div className="home">
-      <div className="aboutme">
-      <h1>Who Am I?</h1>
-      <br/>
-      <h3>My name is André Filipe Gomes Gonçalves, and i'm a junior front-end web developer. I finished an intensive course at WildSchool, 
-        focusing on JavaScript/React. I'm from Lisbon and i'm a business analyst at Accenture.</h3>
-      <br/><br/><br/>
-      <h1>About Me</h1>
-      <br/>
-      <p> I like Boardgames, Bees and Formula 1, as it is pretty clearly shown by my projects themes. I like watching movies and TV shows. 
-        I have an adopted cat and several adopted plants. 
-        I used to be an airplane mechanic, but when the pandemic hit, the sector was severely affected, so i decided to change career.
-       </p>
-      </div>
       <div className="myphoto">
       <img src="https://res.cloudinary.com/dxzkpsxhf/image/upload/v1619251289/profile-pic_2_qmepo0.png" />
       <div className='logos'>
@@ -34,6 +21,21 @@ export default function Home() {
           <DiGithubBadge />
           <DiSass />
         </IconContext.Provider>
+      </div>
+      </div>
+      <div className="aboutme">
+      <h1>Who Am I?</h1>
+      <br/>
+      <p>My name is André Filipe Gomes Gonçalves, and I'm a junior front-end web developer. I finished an intensive course at WildSchool, 
+        focusing on JavaScript/React. I'm from Lisbon and I work as a business analyst at Accenture.</p>
+      <br/><br/><br/>
+      <div className="aboutme2">
+      <h2>About Me</h2>
+      <br/>
+      <p> I like Boardgames, Bees and Formula 1, as it is pretty clearly shown by my projects themes. I like watching movies and TV shows. 
+        I have an adopted cat and several adopted plants. 
+        I used to be an airplane mechanic, but when the pandemic hit, the sector was severely affected, so I decided to change career.
+       </p>
       </div>
       </div>
     </div>
