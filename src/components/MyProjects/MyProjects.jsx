@@ -5,7 +5,7 @@ import './MyProject.css'
 
 export default function MyProjects() {
     return (
-        <div>
+        <div className="carholder">
             <div className="project">
                 {projects.projects.map((project) => (
                     <MyProjectCards key={project.id} project={project} />

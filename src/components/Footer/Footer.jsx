@@ -14,14 +14,8 @@ export default function Footer() {
     <div className='footer'>
       <div className='social-media'>
         <IconContext.Provider value={{ size: "1.5rem", color: "black" }}>
-          <Link to={{ pathname:"https://www.instagram.com/andre_filipe_goncalves/" }} target='_blank' className='social-icons'>
-            <FaInstagram />
-          </Link>
           <Link to={{ pathname:"https://github.com/Andre-Filipe-Goncalves" }} target='_blank' className='social-icons'>
             <FaGithub />
-          </Link>
-          <Link to={{ pathname:"https://www.facebook.com/andre.k.goncalves/" }} target='_blank' className='social-icons'>
-            <FaFacebook />
           </Link>
           <Link to={{ pathname:"https://www.linkedin.com/in/andr%C3%A9-gon%C3%A7alves-085596203/" }} target='_blank' className='social-icons'>
             <FaLinkedin />

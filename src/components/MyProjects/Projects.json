@@ -16,10 +16,10 @@
       },
       {
         "header": "Epico",
-        "img": "https://www.dropbox.com/s/krt62y87smnl2ru/Epico.jpeg?raw=1",
+        "img": "https://res.cloudinary.com/dxzkpsxhf/image/upload/v1620240982/Screenshot_from_2021-05-05_19-55-00_hgx9ck.png",
         "id": 3,
         "description": "The Epico gamers is an app designed for board games lovers. Here you may find info about different board games and the best places in the world to buy them and to play them in good company. Throught the world map you can find stores and coffee shops across the world! ",
-        "link": "#"
+        "link": "https://epic-mayer-c85bc7.netlify.app/"
       }
     ]
   }

@@ -1,6 +1,7 @@
 
 .logos{
    margin: 10% 0 0 6%
+   
 }
 
 
@@ -59,13 +60,14 @@
     }
 
     .myphoto {
-      width: 80%;
-      margin: 0 0 20% 0;
+      width: 100%;
+      margin: 0 0 0 5%;
     }
 
     .myphoto img{
+      width: 250px;
       height: 250px;
-      margin: 0 0 0 5% 
+      margin: 0 10% 0 0
     }
 
     .aboutme h1 {
@@ -73,16 +75,83 @@
     }
 
     .aboutme {
-      line-height: 2rem;
+      line-height: 30px;
       letter-spacing: 1px;
       margin: 0;
       padding: 15px;
-      font-size: 16px;
+      font-size: 20px;
       width:100% ;
+    }
+
+    .aboutme2{
+      font-size: 16px;
     }
 
     .logos {
         width: 100%;
-        margin: 0 0 0 5% ;
+        margin: 0 0 10% 0 ;
     }
   }
+
+  @media screen and (max-width: 1300px) {
+  .home{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 15px;
+    }
+
+    .myphoto {
+      width: 100%;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .myphoto img{
+      width: 250px;
+      height: 250px;
+      margin: 0 ;
+      padding: 15px;
+    }
+
+    .aboutme h1 {
+      font-size: 3rem;
+    }
+
+    .aboutme {
+      line-height: 30px;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: 15px;
+      font-size: 20px;
+      width:100% ;
+    }
+
+    .aboutme2{
+      font-size: 16px;
+    }
+
+    .logos {
+      width: 80%;
+      
+    }
+
+  }
+
+  
